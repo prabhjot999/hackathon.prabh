@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Escape the Haunted Room</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="game-page dark-theme">
+
+  <div class="dripping-blood">
+    <div class="drop" style="left: 10%; animation-delay: 0s;"></div>
+    <div class="drop" style="left: 30%; animation-delay: 1s;"></div>
+    <div class="drop" style="left: 50%; animation-delay: 2s;"></div>
+    <div class="drop" style="left: 70%; animation-delay: 3s;"></div>
+    <div class="drop" style="left: 90%; animation-delay: 4s;"></div>
+  </div>
+
+  <!-- <audio id="horrorSound" autoplay loop>
+    <source src="ghost-6979.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+   -->
+
+  
+  <h1>🔒 Escape the Haunted Room</h1>
+  
+  <p class="story-text">You're locked in... A shadow whispers: "Solve the riddle to escape..."</p>
+  
+
+  <!-- Puzzle 1 -->
+  <div class="puzzle">
+    <label for="password">👁 Enter the secret password:</label><br />
+    <input type="text" id="password" placeholder="Type carefully..." />
+    <button onclick="checkPassword()">Unlock</button>
+  </div>
+
+
+  <!-- Puzzle 2 -->
+  <div class="puzzle">
+    <p>🧠 Riddle: Solve or be trapped forever...</p>
+    <button onclick="mathRiddle()">Answer Riddle</button>
+  </div>
+
+  <a href="profile.html" class="btn dark-btn">Meet the Mystery Master</a>
+
+  <script src="hackathon.js"></script>
+  
+</body>
+</html>
