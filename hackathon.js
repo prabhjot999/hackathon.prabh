@@ -15,5 +15,3 @@ function mathRiddle() {
     alert("💀 Incorrect. The chains rattle ominously.");
   }
 }
-
-
